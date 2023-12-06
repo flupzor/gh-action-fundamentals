@@ -21,7 +21,6 @@ jobs:
 
       - name: List files in the repository
         run: |
-          env
           echo "${GITHUB_STATE}"
           echo "${GITHUB_OUTPUT}"
           echo "The repository ${{ github.repository }} contains the following files:"
